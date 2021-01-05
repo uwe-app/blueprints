@@ -1,5 +1,5 @@
 name = "std::blueprint::blog"
-version = "1.0.0"
+version = "1.0.1"
 description = "Project blueprint for a blog"
 type = "site"
 keywords = ["Project", "Blueprint"]
