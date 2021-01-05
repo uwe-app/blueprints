@@ -1,0 +1,81 @@
+lang = "en"
+host = "localhost"
+
+[dependencies]
+"std::core" = { version = "~4.1.11", apply = {styles = ["**"]} }
+"std::author" = { version = "~1" }
+"std::feed" = { version = "~2" }
+
+[page]
+description = "Blog"
+keywords = "Weblog, News, Articles"
+authors = ["anonymous"]
+
+[authors.anonymous]
+name = "Anonymous"
+url = "https://example.com"
+
+[feed.posts]
+title = "Blog Posts"
+description = "News and articles"
+favicon = "/assets/favicon.png"
+target = "posts"
+includes = ["/posts/**"]
+excludes = ["/posts/[0-9]*/", "/posts/"]
+[feed.posts.alternate]
+includes = ["/", "/posts/**/*.html"]
+
+[syntax]
+inline = true
+
+[transform.html]
+strip-comments = true
+toc = true
+words = true
+
+[db.load.posts]
+type = "toml"
+provider = "pages"
+from = "posts"
+excludes = ["index.*"]
+
+[db.load.posts.on.all]
+key = "*"
+
+[db.load.posts.on.tags]
+key = "taxonomies.tags"
+
+[redirect]
+"/posts/" = "/posts/1/"
+
+[pages."index.md".query]
+name = "posts"
+index = "all"
+include-docs = true
+sort = "created"
+desc = true
+limit = 2
+
+[pages."posts/index.md".query]
+name = "posts"
+index = "all"
+include-docs = true
+page = {size = 5}
+sort = "created"
+desc = true
+
+[pages."tags/index.md".query]
+name = "posts"
+index = "tags"
+include-docs = true
+group = {path = "taxonomies.tags", expand = true}
+
+[pages."tags/item.md"]
+title = "Tag"
+
+[pages."tags/item.md".query]
+name = "posts"
+index = "tags"
+each = true
+include-docs = true
+group = {path = "taxonomies.tags", expand = true}

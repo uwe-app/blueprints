@@ -1,0 +1,10 @@
+lang = "en"
+host = "localhost"
+
+[dependencies."std::core"]
+version = "~4.1.6"
+apply = { styles = ["**"] }
+
+[page.meta]
+description = "Website"
+keywords = "Vanilla, Website"
