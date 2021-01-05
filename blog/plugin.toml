@@ -1,0 +1,6 @@
+name = "std::blueprint::blog"
+version = "1.0.0"
+description = "Project blueprint for a blog"
+type = "site"
+keywords = ["Project", "Blueprint"]
+license = ["MIT", "Apache-2.0"]
