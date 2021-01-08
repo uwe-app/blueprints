@@ -12,8 +12,6 @@ Edit the `site/index.md` file to change the content of *this page*; to create ne
 
 Edit the `site/partials/header.hbs` and `site/partials/footer.hbs` files to change the website header and footer.
 
-> Note that adding files and editing partials currently requires a restart when live reload is enabled.
-
 ## Styles
 
 Included are some basic styles but you probably want to use your own; edit the `site/assets/styles/main.css` file to customize the styles for this website.
@@ -44,7 +42,14 @@ Learn more in the [links documentation][links].
 
 ## Syntax Highlighting
 
-To enable syntax highlighting for your project add these settings to `site.toml`:
+To enable syntax highlighting for your project first add the `std::syntax` plugin to the `[dependencies]`:
+
+```toml
+[dependencies]
+"std::syntax" = "^1"
+```
+
+And add these settings to `site.toml`:
 
 ```toml
 [syntax]
