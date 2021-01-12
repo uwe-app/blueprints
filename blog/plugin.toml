@@ -1,6 +1,7 @@
 name = "std::blueprint::blog"
 version = "1.0.1"
 description = "Project blueprint for a blog"
+repository = "https://github.com/uwe-app/blueprints"
 type = "site"
 keywords = ["Project", "Blueprint"]
 license = ["MIT", "Apache-2.0"]
