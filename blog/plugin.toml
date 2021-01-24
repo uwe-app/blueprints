@@ -1,5 +1,5 @@
 name = "std::blueprint::blog"
-version = "1.0.1"
+version = "1.0.2"
 description = "Project blueprint for a blog"
 repository = "https://github.com/uwe-app/blueprints"
 type = "site"
