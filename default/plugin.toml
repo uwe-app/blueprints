@@ -1,7 +1,7 @@
 name = "std::blueprint::default"
-version = "1.0.2"
+version = "1.0.0"
 description = "Project blueprint for a basic website"
 repository = "https://github.com/uwe-app/blueprints"
-type = "site"
+type = "blueprint"
 keywords = ["Project", "Blueprint"]
 license = ["MIT", "Apache-2.0"]
