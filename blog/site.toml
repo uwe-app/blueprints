@@ -27,7 +27,7 @@ excludes = ["/posts/[0-9]*/", "/posts/"]
 includes = ["/", "/posts/**/*.html"]
 
 [syntax]
-inline = true
+theme = "Solarized (light)"
 
 [transform.html]
 strip-comments = true
