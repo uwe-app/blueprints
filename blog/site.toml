@@ -50,7 +50,7 @@ key = "*"
 [db.load.posts.on.tags]
 key = "taxonomies.tags"
 
-[redirect]
+[redirects]
 "/posts/" = "/posts/1/"
 
 [pages."index.md".query]
