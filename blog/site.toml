@@ -7,6 +7,10 @@ host = "localhost"
 "std::feed" = "~2"
 "std::syntax" = "~1"
 
+[dependencies."std::paginate"]
+version = "^1"
+apply = { styles = ["**"] }
+
 [page]
 description = "Blog"
 keywords = "Weblog, News, Articles"
