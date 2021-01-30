@@ -65,7 +65,7 @@ limit = 2
 name = "posts"
 index = "all"
 include-docs = true
-page = {size = 5}
+page = {size = 2}
 sort = "created"
 desc = true
 
