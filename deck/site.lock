@@ -29,6 +29,5 @@ source = "file:///home/muji/git/uwe/plugins/lib/reveal"
 
 [[package]]
 name = "lib::reveal"
-version = "1.0.0"
-checksum = "3a6c6e073117c03ea35741148d425ce9c00f30048966bd63177c93f236961498"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+version = "1.0.1"
+source = "file:///home/muji/git/uwe/plugins/lib/reveal"

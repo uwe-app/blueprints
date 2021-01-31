@@ -27,8 +27,13 @@ pages = [
   "/slides/",
   "/create-file/",
   "/create-menu-item/",
+  "/remove-file/",
+  "/remove-menu-item/",
+  "/reset/",
   "/finish/",
 ]
 
 [syntax]
 theme = "Solarized (light)"
+
+
