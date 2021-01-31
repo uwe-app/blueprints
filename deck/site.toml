@@ -6,7 +6,7 @@ version = "^4"
 apply = { styles = ["**"] }
 
 [dependencies."lib::reveal"]
-version = "^4"
+version = "^1"
 apply = { styles = ["**"], scripts = ["**"] }
 #path = "../../plugins/lib/reveal"
 

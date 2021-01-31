@@ -21,3 +21,14 @@ name = "std::sidebar"
 version = "1.0.1"
 checksum = "59cb1aae475b0ce987d7b6b8bda49d997a12906aea16f454437e7d6a67317376"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "lib::reveal"
+version = "1.0.0"
+source = "file:///home/muji/git/uwe/plugins/lib/reveal"
+
+[[package]]
+name = "lib::reveal"
+version = "1.0.0"
+checksum = "3a6c6e073117c03ea35741148d425ce9c00f30048966bd63177c93f236961498"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
