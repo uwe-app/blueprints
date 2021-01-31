@@ -39,3 +39,15 @@ name = "std::paginate"
 version = "1.0.1"
 checksum = "9b6b8ee2a6ae4949db813c5b3d6c4f29862ea6cfbfa765d97e667407e4bb1206"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::feed"
+version = "2.0.0"
+checksum = "b3bdc05240636609527de1fd82a1c32740751a66c294ac6637289c925fde96e3"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::syntax"
+version = "1.0.1"
+checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"

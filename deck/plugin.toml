@@ -1,0 +1,7 @@
+name = "std::blueprint::deck"
+version = "1.0.0"
+description = "Project blueprint for a deck"
+repository = "https://github.com/uwe-app/blueprints"
+type = "blueprint"
+keywords = ["Project", "Blueprint"]
+license = ["MIT", "Apache-2.0"]

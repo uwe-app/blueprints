@@ -1,0 +1,34 @@
+lang = "en"
+host = "localhost"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."lib::reveal"]
+version = "^4"
+apply = { styles = ["**"], scripts = ["**"] }
+path = "../../plugins/lib/reveal"
+
+[dependencies."std::syntax"]
+version = "^1"
+
+[dependencies."std::sidebar"]
+version = "~1"
+apply = { scripts = [ "**" ] }
+
+[page.meta]
+description = "Website"
+keywords = "Vanilla, Website"
+
+[menu.slides]
+pages = [
+  "/welcome/",
+  "/slides/",
+  "/create-file/",
+  "/create-menu-item/",
+  "/finish/",
+]
+
+[syntax]
+theme = "Solarized (light)"

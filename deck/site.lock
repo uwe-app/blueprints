@@ -1,0 +1,23 @@
+[[package]]
+name = "std::core"
+version = "4.1.13"
+checksum = "8df4fc24727a00b4fb47fdf2d5a2a442742afb6f8b6c68fc412103a09f8989b7"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "lib::reveal"
+version = "4.1.0"
+checksum = "3bb30ef3a1f9328896dc514da30f1ee9c1d42489942709e45e09e65388088d9b"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::syntax"
+version = "1.0.1"
+checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::sidebar"
+version = "1.0.1"
+checksum = "59cb1aae475b0ce987d7b6b8bda49d997a12906aea16f454437e7d6a67317376"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
