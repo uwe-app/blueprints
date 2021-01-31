@@ -8,7 +8,7 @@ apply = { styles = ["**"] }
 [dependencies."lib::reveal"]
 version = "^4"
 apply = { styles = ["**"], scripts = ["**"] }
-path = "../../plugins/lib/reveal"
+#path = "../../plugins/lib/reveal"
 
 [dependencies."std::syntax"]
 version = "^1"
