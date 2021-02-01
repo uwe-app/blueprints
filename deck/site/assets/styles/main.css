@@ -20,13 +20,26 @@ aside {
   min-width: var(--sidebar-width);
 }
 
+aside ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 main > header {
   padding: 1em 0;
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
-  align-self: center;
+}
+
+footer > p:last-child > a:last-child {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-size: 12px;
 }
 
 #sidebar-toggle {
