@@ -4,12 +4,14 @@ host = "localhost"
 [dependencies."std::core"]
 version = "^4"
 apply = { styles = ["**"] }
-path = "../../plugins/std/core"
+
+[dependencies."std::menu"]
+version = "^1"
+apply = { styles = ["**"] }
 
 [dependencies."lib::reveal"]
 version = "^1"
 apply = { styles = ["/"], scripts = ["/"] }
-#path = "../../plugins/lib/reveal"
 
 [dependencies."std::syntax"]
 version = "^1"

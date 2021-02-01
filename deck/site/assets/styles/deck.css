@@ -1,7 +1,12 @@
+body {
+  display: block !important;
+}
+
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: stretch !important;
   height: 100vh;
 }
 

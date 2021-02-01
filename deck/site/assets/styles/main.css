@@ -4,21 +4,29 @@
 }
 
 body {
+  display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0 1em;
   height: 100%;
 }
 
-article {
-  padding: 0 1em;
+main {
+  flex: 1;
+  margin-left: 0 !important;
+  align-items: flex-start;
+}
+
+aside {
+  min-width: var(--sidebar-width);
 }
 
 main > header {
-  padding: 1em;
+  padding: 1em 0;
 }
 
 footer {
   text-align: center;
+  align-self: center;
 }
 
 #sidebar-toggle {
