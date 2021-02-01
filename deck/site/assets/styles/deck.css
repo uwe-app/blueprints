@@ -3,32 +3,11 @@ body {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: stretch !important;
-  height: 100vh;
 }
 
-main > header {
-  flex: 0;
-  padding: 1em;
-  align-self: flex-start;
-}
-
-footer {
-  flex: 0;
-  text-align: center;
-}
-
-section p, pre {
-  max-width: 40em;
-  margin: 0 auto 1em auto;
-}
-
-pre {
-  text-align: left;
-  margin: 0 auto 1em auto;
+article {
+  display: block !important;
 }
 
 noscript p {

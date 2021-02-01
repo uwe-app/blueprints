@@ -3,6 +3,10 @@ title = "Presentation"
 
 [[links]]
 rel = "stylesheet"
+href = "/assets/styles/all.css"
+
+[[links]]
+rel = "stylesheet"
 href = "/assets/styles/print.css"
 media = "print"
 +++
