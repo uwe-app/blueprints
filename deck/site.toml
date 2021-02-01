@@ -28,6 +28,9 @@ keywords = "Presentation, Deck"
 pages = [
   "/welcome/",
   "/slides/",
+  "/rendered/",
+  "/print/",
+  "/fallback/",
   "/create-file/",
   "/create-menu-item/",
   "/remove-file/",
