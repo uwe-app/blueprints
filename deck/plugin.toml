@@ -1,5 +1,5 @@
 name = "std::blueprint::deck"
-version = "1.0.2"
+version = "1.0.3"
 description = "Project blueprint for a deck"
 repository = "https://github.com/uwe-app/blueprints"
 type = "blueprint"
