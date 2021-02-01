@@ -1,9 +1,6 @@
 +++
 title = "Deck"
 
-[[scripts]]
-src= "/assets/scripts/deck.js"
-
 [[links]]
 rel = "stylesheet"
 href = "/assets/styles/deck.css"

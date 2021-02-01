@@ -3,7 +3,7 @@ host = "localhost"
 
 [dependencies]
 "std::author" = "^1"
-"std::core" = { version = "^4", apply = {styles = ["**"]} }
+"std::core" = { version = "^5", apply = {styles = ["**"]} }
 "std::feed" = "^2"
 "std::syntax" = "^1"
 

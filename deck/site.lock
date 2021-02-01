@@ -1,19 +1,19 @@
 [[package]]
-name = "std::core"
-version = "4.1.13"
-checksum = "8df4fc24727a00b4fb47fdf2d5a2a442742afb6f8b6c68fc412103a09f8989b7"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
 name = "lib::reveal"
-version = "4.1.0"
-checksum = "3bb30ef3a1f9328896dc514da30f1ee9c1d42489942709e45e09e65388088d9b"
+version = "1.0.1"
+checksum = "ee0e44943f0f97aa70d80e9924c683c33f235ce9bf018652788243f7aef3b30d"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
-name = "std::syntax"
-version = "1.0.1"
-checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
+name = "std::core"
+version = "5.0.0"
+checksum = "b2f567c7e721c375078dbba3aa0499a29cfd0425979533655e9268c697c6089d"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::menu"
+version = "1.0.2"
+checksum = "8c9d6e10eec0f9c449a071310c4d8a82fd38bab80062b182493dd70cac194146"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -23,24 +23,7 @@ checksum = "59cb1aae475b0ce987d7b6b8bda49d997a12906aea16f454437e7d6a67317376"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
-name = "lib::reveal"
-version = "1.0.0"
-source = "file:///home/muji/git/uwe/plugins/lib/reveal"
-
-[[package]]
-name = "std::menu"
+name = "std::syntax"
 version = "1.0.1"
-checksum = "7249b951ae4049af07f95b8b592fb8e7173a9b681b3306a65a267bcdb51965fc"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
-name = "lib::reveal"
-version = "1.0.1"
-checksum = "ee0e44943f0f97aa70d80e9924c683c33f235ce9bf018652788243f7aef3b30d"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
-name = "std::menu"
-version = "1.0.2"
-checksum = "8c9d6e10eec0f9c449a071310c4d8a82fd38bab80062b182493dd70cac194146"
+checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
