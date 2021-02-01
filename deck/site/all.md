@@ -11,3 +11,9 @@ media = "print"
 <h2>{{this.title}}</h2>
 <section>{{render this.href}}</section>
 {{/menu}}
+
+<style>
+main {
+  align-items: flex-start !important;
+}
+</style>

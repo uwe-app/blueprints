@@ -6,8 +6,8 @@ version = "^4"
 apply = { styles = ["**"] }
 
 [dependencies."std::menu"]
-version = "^1"
-apply = { styles = ["**"] }
+version = "^1.0.2"
+#apply = { styles = ["**"] }
 
 [dependencies."lib::reveal"]
 version = "^1"
