@@ -4,10 +4,11 @@ host = "localhost"
 [dependencies."std::core"]
 version = "^4"
 apply = { styles = ["**"] }
+path = "../../plugins/std/core"
 
 [dependencies."lib::reveal"]
 version = "^1"
-apply = { styles = ["**"], scripts = ["**"] }
+apply = { styles = ["/"], scripts = ["/"] }
 #path = "../../plugins/lib/reveal"
 
 [dependencies."std::syntax"]
@@ -18,8 +19,8 @@ version = "~1"
 apply = { scripts = [ "**" ] }
 
 [page.meta]
-description = "Website"
-keywords = "Vanilla, Website"
+description = "Deck"
+keywords = "Presentation, Deck"
 
 [menu.slides]
 pages = [
@@ -35,3 +36,4 @@ pages = [
 
 [syntax]
 theme = "Solarized (light)"
+

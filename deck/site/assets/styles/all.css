@@ -1,0 +1,16 @@
+body {
+  display: flex;
+}
+
+main {
+  margin-left: 0 !important;
+  align-items: flex-start !important;
+}
+
+aside {
+  min-width: var(--sidebar-width);
+}
+
+footer {
+  align-self: center;
+}
