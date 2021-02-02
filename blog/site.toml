@@ -1,5 +1,5 @@
 lang = "en"
-host = "localhost"
+host = "blog-blueprint.uwe.app"
 
 [dependencies]
 "std::author" = "^1"
