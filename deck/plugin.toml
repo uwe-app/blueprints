@@ -14,3 +14,6 @@ fonts = false
 plugins = false
 partials = false
 layouts = false
+
+[blueprint.files]
+excludes = ["test/**"]

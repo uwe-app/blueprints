@@ -19,4 +19,4 @@ plugins = false
 
 [blueprint.files]
 includes = ["site/partials/header.hbs", "site/partials/footer.hbs"]
-excludes = ["site/partials/*.hbs"]
+excludes = ["site/partials/*.hbs", "test/**"]
