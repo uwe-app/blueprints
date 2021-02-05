@@ -1,5 +1,5 @@
 name = "std::blueprint::default"
-version = "1.1.1"
+version = "1.1.2"
 description = "Project blueprint for a basic website"
 repository = "https://github.com/uwe-app/blueprints"
 type = "blueprint"
@@ -14,3 +14,6 @@ fonts = false
 plugins = false
 partials = false
 layouts = false
+
+[blueprint.files]
+excludes = ["test/**"]

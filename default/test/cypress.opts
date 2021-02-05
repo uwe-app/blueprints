@@ -1,0 +1,4 @@
+--config-file
+test/cypress.json
+--reporter-options
+--no-color
